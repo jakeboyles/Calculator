@@ -1,0 +1,52 @@
+
+main,section {margin:0;padding:0;}
+
+main {
+    background-color: #6b5;
+    width: 300px;
+    margin: 100px auto;
+}
+main::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.operator {
+    background-color: #8c8;
+}
+
+button {
+    box-sizing: border-box;
+    width: 25%;
+    height: 75px;
+    background: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8c7;
+}
+button:active {
+    background-color: #8c7;
+    border: 1px solid #8c7;
+}
+
+button, figure {
+    display: block;
+    float: left;
+    color: #fff;
+    font-size: 1.2em;
+    border: 1px solid #8c7;
+}
+
+figure {
+    box-sizing: border-box;
+    width: 75%;
+    height: 75px;
+    margin: 0;
+    text-align: right;
+    font-size: 1.5em;
+    padding: 0.4em;
+    word-wrap: break-word;
+}
